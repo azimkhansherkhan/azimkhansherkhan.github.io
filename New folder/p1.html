@@ -1,0 +1,51 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta charset= "utf-8";
+<link rel= "stylesheet" href= "css/Homepage.css" type="text/css">
+</head>
+
+<body>
+<link type="text/css" rel="stylesheet" href="http://localhost:8080/Homepage.css">
+   <header>  
+	 <div class = "dws-menu">
+	   <ul class= "dws-ul">
+		   <li class="dws-li"><a href='rpr1.php?rprl_v=true'>Вывести бензиновые</a></li> <!--<i class="fa fa-home" aria-hidden="true"></i>Главная</a></li>-->
+		   <li class="dws-li"><a href='insert.php'>Вставить в таблицу бензиновые</a></li>
+		   <li class="dws-li"><a href='rpr2.php?rpr2_v=true'>Вывести гибридные</a></li>
+		   <li class="dws-li"><a href='insert1.php'>Вставить в таблицу гибридные</a></li>
+		   <li class="dws-li"><a href='rpr3.php?rpr3_v=true'>Вывести электрокары</a></li>
+		   <li class="dws-li"><a href='insert2.php'>Вставить в таблицу электрокары</a></li>
+		</ul>
+	 </div>
+</header>
+
+<?php
+  function pgcon() {
+//    echo 'I just ran a php function';
+  }
+
+  if (isset($_GET['rpr1_v'])) {
+    pgcon();
+  }
+?>
+<!--Report 1:
+<a href='rpr1.php?rpr1_v=true'>Run report 1</a>
+<a href='/New folder/insert.php'>Insert benzinovyi</a>
+
+Report 2:
+<a href='rpr2.php?rpr2_v=true'>Run report 2</a>
+<a href='insert1.php'>Insert hybridnyi</a>
+</html>
+
+Report 3:
+<a href='rpr3.php?rpr3_v=true'>Run report 3</a>
+<a href='insert2.php'>Insert electrocar</a>
+<body bgcolor="#808080" topmargin=0><basefont face="'Comic Sans MS',fantasy" color ="black">
+<P>&nbsp;</P>
+<P>&nbsp;</P>--> 
+
+
+</body>
+
+</html>
