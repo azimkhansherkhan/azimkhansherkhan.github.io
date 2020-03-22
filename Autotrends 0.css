@@ -1,0 +1,23 @@
+body {
+	background-color: #FFFFFF;
+}
+td {
+	border: 1px black solid;
+	padding: 5px;
+	
+}	
+th {
+	font-size: 20px;
+
+}
+.rotate {
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  width: 1.5em;
+}
+.rotate div {
+  -webkit-transform: rotate(-90.0deg);  /* Saf3.1+, Chrome */
+         margin-left: -10em;
+         margin-right: -10em;
+}
