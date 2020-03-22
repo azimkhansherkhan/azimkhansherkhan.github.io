@@ -1,6 +1,8 @@
 body {
 	background-color: #FFFFFF;
+	/*display:inline;*/
 }
+/*
 td {
 	border: 1px black solid;
 	padding: 5px;
@@ -10,6 +12,7 @@ th {
 	font-size: 20px;
 
 }
+*/
 .rotate {
   text-align: center;
   white-space: nowrap;
@@ -21,3 +24,22 @@ th {
          margin-left: -10em;
          margin-right: -10em;
 }
+
+#rotate {
+	-webkit-transform: rotate(-90.0deg);  /* Saf3.1+, Chrome */
+         margin-left: -10em;
+         margin-right: -10em;
+}
+
+h1 {
+	margin-bottom: 53px;
+}
+
+/*
+div div .rotate {
+  -webkit-transform: rotate(-90.0deg);  /* Saf3.1+, Chrome */
+         /*margin-left: -10em;
+         margin-right: -10em;
+		 */
+}
+*/

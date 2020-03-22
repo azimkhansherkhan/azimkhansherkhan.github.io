@@ -1,226 +1,321 @@
 <!DOCTYPE html>
 <html>
 <head>
-<meta charset= "win-1251";
+<meta charset= "win-1251";>
 <title>Autotrends</title>
 </head>
 <body>
+ <link type="text/css" rel="stylesheet" href="bootstrap-4.0.0\bootstrap-4.0.0\dist\css\bootstrap.css">
  <link type="text/css" rel="stylesheet" href="Autotrends 0.css">
-<center>
-    <h1>AUTOTRENDS</h1>
-</center>
 
-<table border="2" bordercolor="grey" align="center" widtd="1200">
-    <tr>
-        <td rowspan="2"</td>		
-		<td rowspan="2"</td>
-	</tr>
-   
-	<tr>
-		<th>марка автомобиля</th>
-        <th>Логотип автомобиля</th>
-        <th>Страна происхождения</th>
-        <th>Официальный вебсайт</th>
-        <th>История бренда</th>
-    </tr>
 
-	<tr>
-	    <th class='rotate' rowspan="32"><div>Сравнение марок автомобилей по популярности</div></th>
+<nav class="navbar navbar-light bg-light">
+<div class="container">
+  <a class="navbar-brand" href="#">Autotrends</a>
+  <audio controls autoplay style="float:right">
+  <source src="Jung Jaeil - The Belt of Faith.mp3" type="audio/mpeg">
+  Your browser does not support the audio element.
+</audio>
+
+</div>
+</nav>
+
+
+<!--
+<div class="container">
+  
+  <div class="row">
+  
+    <div class="col-sm-2">
+		<div id="rotate">
+			Сравнение марок автомобилей по популярности
+		</div>
+    </div>
+	
+	<div class="col-sm-8">
+		<div class="container">
+			<div class="row">
+				<div class="col-sm">
+				  
+				</div>  
+				<div class="col-sm">
+				  марка автомобиля
+				</div>
+				<div class="col-sm">
+				  Логотип автомобиля
+				</div>
+				<div class="col-sm">
+				  Страна происхождения
+				</div>
+				<div class="col-sm">
+				  Официальный вебсайт
+				</div>
+				<div class="col-sm">
+				  История бренда
+				</div>			
+			</div>
+			
+			<div class="row">
+				<div class="col-sm my-auto">
+				  <a href="Comparison.html" target="_blank">Сравнение</a>
+				</div> 		 
+				<div class="col-sm my-auto">
+				  Toyota
+				</div>
+				<div class="col-sm my-auto">
+				  <a href="Autotrends_Toyota.html" target="_blank"><img src="New folder\Logo Toyota.png" alt="" border=0 height=200 widtd=300 ></img></a>
+				</div>
+				<div class="col-sm my-auto">
+				  Japan
+				</div>
+				<div class="col-sm my-auto">
+				  <a href="http://toyota.kz" target="_blank">Go to website</a>
+				</div>
+				<div class="col-sm my-auto">
+				  <a href="Autotrends_Ford_History.html" target="_blank">Go to brend history</a>
+				</div>			
+			</div>
+		</div>
+    </div>
+
+	<div class="col-sm-2" id="rotate">
+		Сравнение марок автомобилей по популярности
+    </div>
+	
+	
+  </div>
+</div>
+-->
+
+<!-- table -->
+
+<div class="container">
+
+	<div class="row">
 		
-    </tr>
-	<tr>
-		<td><a href="Comparison.html" target="_blank">Сравнение</a></td>
-		<td>Toyota</td>
-        <td><a href="Autotrends_Toyota.html" target="_blank"><img src="New folder\Logo Toyota.png" alt="" border=0 height=200 widtd=300 ></img></a></td>
-        <td>Japan</td>
-        <td><a href="http://toyota.kz" target="_blank">Go to website</a></td>
-		<td><a href="Autotrends_Ford_History.html" target="_blank">Go to brend history</a></td>
-    </tr>
-    <tr>
-	    <td> </td>
-        <td>BMW</td>
-        <td><a href="Autotrends_BMW.htm" target="_blank"><img src="New folder\Logo BMW.png" alt="" border=0 height=200 widtd=300></img></a></td>
-        <td>Germany</td>
-    </tr>
-	<tr>
-       <td> <a href="Comparison 0.html" target="_blank">Сравнение</a></td>
-       <td>Volkswagen</td>
-       <td><a href="Autotrends_Volkswagen.html" target="_blank"><img src="New folder\Logo Volkswagen.png" alt="" border=0 height=200 widtd=300></img></a></td> 
-       <td>Germany</td>
-       <td><a href="http://volkswagen.kz" target="_blank">Go to website</a></td>
-     </tr>
-    <tr>
-	    <td> </td>
-        <td>Mitsubishi</td>
-        <td><a href="Autotrends_Mitsubishi.html" target="_blank"><img src="New folder\Logo Mitsubishi.png" alt="" border=0 height=200 widtd=300></img></a></td>
-        <td>Japan</td>
-    </tr>
-    <tr>
-	    <td> </td>
-        <td>Nissan</td>
-        <td><a href="Autotrends_Nissan.html" target="_blank"><img src="New folder\Logo Nissan.png" alt="" border=0 height=250 widtd=300></img></a></td>
-        <td>Japan</td>
-    </tr>
-    <tr>
-	    <td> </td>
-        <td>Mercedes</td>
-        <td><a href="Autotrends_Mercedes.htm" target="_blank"><img src="\pic\Logo Mercedes.png" alt="" border=3 height=100 widtd=300></img></a></td>
-        <td>Germany</td>
-    </tr>
-    <tr>
-	    <td> </td>
-        <td>Audi</td>
-        <td><a href="Autotrends_Audi.htm" target="_blank"><img src="\pic\Logo Audi.png" alt="" border=3 height=100 widtd=300></img></a></td>
-        <td>Germany</td>
-    </tr>
-    <tr>
-	    <td> </td>
-        <td>Lexus</td>
-        <td><a href="Autotrends_Lexus.htm" target="_blank"><img src="\pic\Logo Lexus.png" alt="" border=3 height=100 widtd=300></img></a></td>
-        <td>Japan</td>
-    </tr>
-    <tr>
-	    <td> </td>
-        <td>Honda</td>
-        <td><a href="Autotrends_Honda.html" target="_blank"><img src="New folder\Logo Honda.png" alt="" border=0 height=200 widtd=300></img></a></td>
-        <td>Japan</td>
-    </tr>
-    <tr>
-	    <td> </td>
-        <td>Hyundai</td>
-        <td><a href="Autotrends_Hyundai.html" target="_blank"><img src="New folder\Logo Hyundai.png" alt="" border=0 height=200 widtd=300></img></a></td>
-        <td>Soutd Korea</td>
-    </tr>
-	<tr>
-        <td> </td>	
-		<td>Ford</td>
-        <td><a href="Autotrends_Ford 0.html" target="_blank"><img src="New folder\Logo Ford.png" alt=""  class="center-img" border=0 height=100 widtd=300 /></img></a></td>
-        <td>USA</td>
-        <td><a href="http://ford.com" target="_blank">Go to website</a></td>
-        <td><a href="Autotrends_Ford_History.html" target="_blank">Go to brend history</a></td>
-    </tr>
-    <tr>
-	    <td> </td>
-        <td>Renault</td>
-        <td><a href="Autotrends_Renault.html" target="_blank"><img src="New folder\Logo Renault.png" alt="" border=0 height=350 widtd=300></img></a></td>
-        <td>France</td>
-    </tr>
-    <tr>
-	    <td> </td>
-        <td>Opel</td>
-        <td><a href="Autotrends_Opel.html" target="_blank"><img src="\New Folder\Logo Opel.png" alt="" border=0 height=300 widtd=400></img></a></td>
-        <td>Germany</td>
-    </tr>
-    <tr>
-		<td> </td>
-        <td>Chevrolet</td>
-        <td><a href="Autotrends_Chevrolet.html" target="_blank"><img src="\New Folder\Logo Chevrolet.png" alt="" border=0 height=250 widtd=400></img></a></td>
-        <td>USA</td>
-    </tr>
-    <tr>
-		<td> </td>
-        <td>Peugeot</td>
-        <td><a href="Autotrends_Peugeot.html" target="_blank"><img src="\New Folder\Logo Peugeot.png" alt="" border=0 height=250 widtd=300></img></a></td>
-        <td>France</td>
-    </tr>
-    <tr>
-		<td> </td>
-        <td>Geely</td>
-        <td><a href="Autotrends_Geely.html" target="_blank"><img src="New folder\Logo Geely.png" alt="" border=0 height=200 widtd=300></img></a></td>
-        <td>China</td>
-    </tr>
-    <tr>
-		<td> </td>
-        <td>Citroen</td>
-        <td><a href="Autotrends_Citroen.html" target="_blank"><img src="\pic\Logo Citroen.png" alt="" border=3 height=100 widtd=300></img></a></td>
-        <td>France</td>
-    </tr>
-    <tr>
-		<td> </td>
-        <td>Suzuki</td>
-        <td><a href="Autotrends_Suzuki.html" target="_blank"><img src="\pic\Logo Suzuki.png" alt="" border=3 height=100 widtd=300></img></a></td>
-        <td>Japan</td>
-    </tr>
-    <tr>
-		<td> </td>
-	    <td>Daewoo</td>
-		<td><a href="Autotrends.html" target="_blank"><img src="\pic\Logo Geely.png" alt="" border=3 height=100 widtd=100></img></a></td>                    
-		<td></td>
-	</tr>	
-	<tr>
-		<td> </td>
-        <td>Fiat</td>
-        <td><a href="Autotrends_Fiat.html" target="_blank"><img src="New folder\Logo Fiat.png" alt="" border=0 height=300 widtd=300></img></a></td>
-        <td>Italy</td>
-    </tr>
-    <tr>
-		<td> </td>
-        <td>Subaru</td>
-        <td><a href="Autotrends_Subaru.htm" target="_blank"><img src="\pic\Logo Subaru.png" alt="" border=3 height=100 widtd=300></img></a></td>
-        <td>Japan</td>
-    </tr>
-    <tr>
-		<td> </td>
-        <td>Seat</td>
-        <td><a href="Autotrends_Seat.html" target="_blank"><img src="New folder\Logo Seat.png" alt="" border=0 height=350 widtd=300></img></a></td>
-        <td>Spain</td>
-    </tr>
-    <tr>
-		<td> </td>
-        <td>Volvo</td>
-        <td><a href="Autotrends_Volvo.html" target="_blank"><img src="\pic\Logo Volvo.png" alt="" border=3 height=100 widtd=300></img></a></td>
-        <td>Sweden</td>
-    </tr>
-    <tr>
-		<td> </td>
-        <td>Land Rover</td>
-        <td><a href="Autotrends_Land Rover.htm" target="_blank"><img src="\pic\Logo Land Rover.png" alt="" border=3 height=100 widtd=300></img></a></td>
-        <td>Great Britain</td>
-    </tr>
-    <tr>
-		<td> </td>
-        <td>Great Wall</td>
-        <td><a href="Autotrends_Great Wall1.html" target="_blank"><img src="\pic\Logo Great Wall.png" alt="" border=3 height=100 widtd=300></img></a></td>
-        <td>China</td>
-    </tr>
-    <tr>
-		<td> </td>
-        <td>Lifan</td>
-        <td><a href="Autotrends_Lifan.html" target="_blank"><img src="New folder\Logo Lifan.png" alt="" border=0 height=300 widtd=300></img></a></td>
-        <td>China</td>
-    </tr>
-    <tr>
-		<td> </td>
-        <td>Jeep</td>
-        <td><a href="Autotrends_Jeep.htm" target="_blank"><img src="\pic\Logo Jeep.png" alt="" border=3 height=100 widtd=300></img></a></td>
-        <td>USA</td>
-    </tr>
-    <tr>
-		<td> </td>
-	    <td>Infiniti</td>
-		<td><a href="Autotrends_Infiniti.htm" target="_blank"><img src="\pic\Logo Infiniti.png" alt="" border=3 height=100 widtd=300></img></a></td>
-		<td> </td>
-	</tr>
-    <tr>	
-		<td> </td>
-        <td>Cadillac</td>
-        <td><a href="Autotrends_Cadillac.htm" target="_blank"><img src="\pic\Logo Cadillac.png" alt="" border=3 height=100 widtd=300></img></a></td>
-        <td>USA</td>
-    </tr>
-    <tr>
-		<td> </td>
-        <td>Skoda</td>
-        <td><a href="Autotrends_Skoda.htm" target="_blank"><img src="\pic\Logo Skoda.png" alt="" border=3 height=100 widtd=300></img></a></td>
-        <td>Czech Republic</td>
-    </tr>
-    <tr>
-		<td> </td>
-        <td>Mazda</td>
-        <td><a href="Autotrends_Mazda.htm" target="_blank"><img src="\pic\Logo Mazda.png" alt="" border=3 height=100 widtd=300></img></a></td>
-        <td>Japan</td>
-    </tr>
+		<div class="col-sm">
+			<!--<table border="2" bordercolor="grey" align="center" widtd="1200">-->
+			<table class="table">
+				<!--
+				<tr>
+					<td scope="col" rowspan="2"</td>		
+					<td scope="col" rowspan="2"</td>
+				</tr>
+				-->
+			   <thead>
+					<tr>
+						<th scope="col"></th>
+						<th scope="col"></th>
+						<th scope="col">марка автомобиля</th>
+						<th scope="col">Логотип автомобиля</th>
+						<th scope="col">Страна происхождения</th>
+						<th scope="col">Официальный вебсайт</th>
+						<th scope="col">История бренда</th>
+					</tr>
+				</thead>
+
+				<tr>
+					<th class='rotate' rowspan="32"><div>Сравнение марок автомобилей по популярности</div></th>
+					
+				</tr>
+				<tr>
+					<td><a href="Comparison.html" target="_blank">Сравнение</a></td>
+					<td>Toyota</td>
+					<td><a href="Autotrends_Toyota.html" target="_blank"><img src="New folder\Logo Toyota.png" alt="" border=0 height=200 widtd=300 ></img></a></td>
+					<td>Japan</td>
+					<td><a href="http://toyota.kz" target="_blank">Go to website</a></td>
+					<td><a href="Autotrends_Ford_History.html" target="_blank">Go to brend history</a></td>
+				</tr>
+				<tr>
+					<td> </td>
+					<td>BMW</td>
+					<td><a href="Autotrends_BMW.htm" target="_blank"><img src="New folder\Logo BMW.png" alt="" border=0 height=200 widtd=300></img></a></td>
+					<td>Germany</td>
+				</tr>
+				<tr>
+				   <td> <a href="Comparison 0.html" target="_blank">Сравнение</a></td>
+				   <td>Volkswagen</td>
+				   <td><a href="Autotrends_Volkswagen.html" target="_blank"><img src="New folder\Logo Volkswagen.png" alt="" border=0 height=200 widtd=300></img></a></td> 
+				   <td>Germany</td>
+				   <td><a href="http://volkswagen.kz" target="_blank">Go to website</a></td>
+				 </tr>
+				<tr>
+					<td> </td>
+					<td>Mitsubishi</td>
+					<td><a href="Autotrends_Mitsubishi.html" target="_blank"><img src="New folder\Logo Mitsubishi.png" alt="" border=0 height=200 widtd=300></img></a></td>
+					<td>Japan</td>
+				</tr>
+				<tr>
+					<td> </td>
+					<td>Nissan</td>
+					<td><a href="Autotrends_Nissan.html" target="_blank"><img src="New folder\Logo Nissan.png" alt="" border=0 height=250 widtd=300></img></a></td>
+					<td>Japan</td>
+				</tr>
+				<tr>
+					<td> </td>
+					<td>Mercedes</td>
+					<td><a href="Autotrends_Mercedes.htm" target="_blank"><img src="\pic\Logo Mercedes.png" alt="" border=3 height=100 widtd=300></img></a></td>
+					<td>Germany</td>
+				</tr>
+				<tr>
+					<td> </td>
+					<td>Audi</td>
+					<td><a href="Autotrends_Audi.htm" target="_blank"><img src="\pic\Logo Audi.png" alt="" border=3 height=100 widtd=300></img></a></td>
+					<td>Germany</td>
+				</tr>
+				<tr>
+					<td> </td>
+					<td>Lexus</td>
+					<td><a href="Autotrends_Lexus.htm" target="_blank"><img src="\pic\Logo Lexus.png" alt="" border=3 height=100 widtd=300></img></a></td>
+					<td>Japan</td>
+				</tr>
+				<tr>
+					<td> </td>
+					<td>Honda</td>
+					<td><a href="Autotrends_Honda.html" target="_blank"><img src="New folder\Logo Honda.png" alt="" border=0 height=200 widtd=300></img></a></td>
+					<td>Japan</td>
+				</tr>
+				<tr>
+					<td> </td>
+					<td>Hyundai</td>
+					<td><a href="Autotrends_Hyundai.html" target="_blank"><img src="New folder\Logo Hyundai.png" alt="" border=0 height=200 widtd=300></img></a></td>
+					<td>Soutd Korea</td>
+				</tr>
+				<tr>
+					<td> </td>	
+					<td>Ford</td>
+					<td><a href="Autotrends_Ford 0.html" target="_blank"><img src="New folder\Logo Ford.png" alt=""  class="center-img" border=0 height=100 widtd=300 /></img></a></td>
+					<td>USA</td>
+					<td><a href="http://ford.com" target="_blank">Go to website</a></td>
+					<td><a href="Autotrends_Ford_History.html" target="_blank">Go to brend history</a></td>
+				</tr>
+				<tr>
+					<td> </td>
+					<td>Renault</td>
+					<td><a href="Autotrends_Renault.html" target="_blank"><img src="New folder\Logo Renault.png" alt="" border=0 height=350 widtd=300></img></a></td>
+					<td>France</td>
+				</tr>
+				<tr>
+					<td> </td>
+					<td>Opel</td>
+					<td><a href="Autotrends_Opel.html" target="_blank"><img src="\New Folder\Logo Opel.png" alt="" border=0 height=300 widtd=400></img></a></td>
+					<td>Germany</td>
+				</tr>
+				<tr>
+					<td> </td>
+					<td>Chevrolet</td>
+					<td><a href="Autotrends_Chevrolet.html" target="_blank"><img src="\New Folder\Logo Chevrolet.png" alt="" border=0 height=250 widtd=400></img></a></td>
+					<td>USA</td>
+				</tr>
+				<tr>
+					<td> </td>
+					<td>Peugeot</td>
+					<td><a href="Autotrends_Peugeot.html" target="_blank"><img src="\New Folder\Logo Peugeot.png" alt="" border=0 height=250 widtd=300></img></a></td>
+					<td>France</td>
+				</tr>
+				<tr>
+					<td> </td>
+					<td>Geely</td>
+					<td><a href="Autotrends_Geely.html" target="_blank"><img src="New folder\Logo Geely.png" alt="" border=0 height=200 widtd=300></img></a></td>
+					<td>China</td>
+				</tr>
+				<tr>
+					<td> </td>
+					<td>Citroen</td>
+					<td><a href="Autotrends_Citroen.html" target="_blank"><img src="\pic\Logo Citroen.png" alt="" border=3 height=100 widtd=300></img></a></td>
+					<td>France</td>
+				</tr>
+				<tr>
+					<td> </td>
+					<td>Suzuki</td>
+					<td><a href="Autotrends_Suzuki.html" target="_blank"><img src="\pic\Logo Suzuki.png" alt="" border=3 height=100 widtd=300></img></a></td>
+					<td>Japan</td>
+				</tr>
+				<tr>
+					<td> </td>
+					<td>Daewoo</td>
+					<td><a href="Autotrends.html" target="_blank"><img src="\pic\Logo Geely.png" alt="" border=3 height=100 widtd=100></img></a></td>                    
+					<td></td>
+				</tr>	
+				<tr>
+					<td> </td>
+					<td>Fiat</td>
+					<td><a href="Autotrends_Fiat.html" target="_blank"><img src="New folder\Logo Fiat.png" alt="" border=0 height=300 widtd=300></img></a></td>
+					<td>Italy</td>
+				</tr>
+				<tr>
+					<td> </td>
+					<td>Subaru</td>
+					<td><a href="Autotrends_Subaru.htm" target="_blank"><img src="\pic\Logo Subaru.png" alt="" border=3 height=100 widtd=300></img></a></td>
+					<td>Japan</td>
+				</tr>
+				<tr>
+					<td> </td>
+					<td>Seat</td>
+					<td><a href="Autotrends_Seat.html" target="_blank"><img src="New folder\Logo Seat.png" alt="" border=0 height=350 widtd=300></img></a></td>
+					<td>Spain</td>
+				</tr>
+				<tr>
+					<td> </td>
+					<td>Volvo</td>
+					<td><a href="Autotrends_Volvo.html" target="_blank"><img src="\pic\Logo Volvo.png" alt="" border=3 height=100 widtd=300></img></a></td>
+					<td>Sweden</td>
+				</tr>
+				<tr>
+					<td> </td>
+					<td>Land Rover</td>
+					<td><a href="Autotrends_Land Rover.htm" target="_blank"><img src="\pic\Logo Land Rover.png" alt="" border=3 height=100 widtd=300></img></a></td>
+					<td>Great Britain</td>
+				</tr>
+				<tr>
+					<td> </td>
+					<td>Great Wall</td>
+					<td><a href="Autotrends_Great Wall1.html" target="_blank"><img src="\pic\Logo Great Wall.png" alt="" border=3 height=100 widtd=300></img></a></td>
+					<td>China</td>
+				</tr>
+				<tr>
+					<td> </td>
+					<td>Lifan</td>
+					<td><a href="Autotrends_Lifan.html" target="_blank"><img src="New folder\Logo Lifan.png" alt="" border=0 height=300 widtd=300></img></a></td>
+					<td>China</td>
+				</tr>
+				<tr>
+					<td> </td>
+					<td>Jeep</td>
+					<td><a href="Autotrends_Jeep.htm" target="_blank"><img src="\pic\Logo Jeep.png" alt="" border=3 height=100 widtd=300></img></a></td>
+					<td>USA</td>
+				</tr>
+				<tr>
+					<td> </td>
+					<td>Infiniti</td>
+					<td><a href="Autotrends_Infiniti.htm" target="_blank"><img src="\pic\Logo Infiniti.png" alt="" border=3 height=100 widtd=300></img></a></td>
+					<td> </td>
+				</tr>
+				<tr>	
+					<td> </td>
+					<td>Cadillac</td>
+					<td><a href="Autotrends_Cadillac.htm" target="_blank"><img src="\pic\Logo Cadillac.png" alt="" border=3 height=100 widtd=300></img></a></td>
+					<td>USA</td>
+				</tr>
+				<tr>
+					<td> </td>
+					<td>Skoda</td>
+					<td><a href="Autotrends_Skoda.htm" target="_blank"><img src="\pic\Logo Skoda.png" alt="" border=3 height=100 widtd=300></img></a></td>
+					<td>Czech Republic</td>
+				</tr>
+				<tr>
+					<td> </td>
+					<td>Mazda</td>
+					<td><a href="Autotrends_Mazda.htm" target="_blank"><img src="\pic\Logo Mazda.png" alt="" border=3 height=100 widtd=300></img></a></td>
+					<td>Japan</td>
+				</tr>
 
 
-</table>
+			</table>
+		</div>
+
+	</div>
+</div>
+
 </body>
 </html>
