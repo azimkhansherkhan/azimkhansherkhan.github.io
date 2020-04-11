@@ -25,6 +25,10 @@ nav {
 	font-family: 'Baloo Paaji 2', monospace;
 }
 
+td {
+    margin: auto;
+}
+
 .dws-menu{
 	background-color: white;
 	/*margin-top: 100px;*/
