@@ -10,13 +10,19 @@ body{
 
 #img1 {animation-timing-function: linear;}
 #img2 {animation-timing-function: ease;}
-#img3 {animation-timing-function: ease-in;}
+#img3 {animation-timing-function: ease-out;}
 #img4 {animation-timing-function: ease-out;}
 #img5 {animation-timing-function: ease-in-out;}
 
 @keyframes mymove {
   from {left: 0px;}
-  to {left: 900px;}
+  to {left: 800px;}
+}
+
+@import url('https://fonts.googleapis.com/css?family=Baloo+Paaji+2&display=swap');
+
+nav {
+	font-family: 'Baloo Paaji 2', monospace;
 }
 
 .dws-menu{
