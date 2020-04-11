@@ -5,28 +5,29 @@ body{
 
 .car {
   position: relative;
-  animation: mymove 10s;
+  animation: mymove 8s;
 }
 
 #img1 {animation-timing-function: linear;}
 #img2 {animation-timing-function: ease;}
-#img3 {animation-timing-function: ease-out;}
+#img3 {animation-timing-function: ease-in;}
 #img4 {animation-timing-function: ease-out;}
 #img5 {animation-timing-function: ease-in-out;}
 
 @keyframes mymove {
   from {left: 0px;}
-  to {left: 800px;}
+  to {left: 880px;}
 }
 
 @import url('https://fonts.googleapis.com/css?family=Baloo+Paaji+2&display=swap');
 
 nav {
+    display: inline-block;
 	font-family: 'Baloo Paaji 2', monospace;
 }
 
-td {
-    margin: auto;
+td, tr {
+    text-align:center;
 }
 
 .dws-menu{
