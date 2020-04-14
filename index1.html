@@ -1,0 +1,733 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<meta charset= "win-1251";>
+<title>Автотрендтер</title>
+
+<td><a href="http://toyota.kz" target="_blank">
+<div class="text-right">
+<button type="button" class="btn btn-outline-warning">Каз</button>
+<button type="button" class="btn btn-outline-warning">Рус</button>
+<button type="button" class="btn btn-outline-warning">Eng</button>
+</a></td>
+
+</head>
+
+<body>
+<link type="text/css" rel="stylesheet" href="Homepage.css">
+ <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+ <link type="text/css" rel="stylesheet" href="Autotrends 0.css">
+ 
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+<script src="/js/my.js"></script>
+
+<nav class="navbar navbar-light bg-light">
+<div class="container">
+  <a class="navbar-brand" href="#">
+
+	<div><h3>Autotrends</h3></b></div>
+	<img id="img4" class="car" src="New folder\navbar_logo.png" height="23" alt="">
+	<img id="img2" class="car" src="New folder\nav_logo1.png" height="70" alt="">
+	<img id="img4" class="car" src="New folder\navbar_logo3.png" height="50" alt="">
+	<img id="img5" class="car" src="New folder\electric_car.png" height="30" alt="">
+	<img id="img4" class="car" src="New folder\navbar_logo2.png" height="40" alt="">
+	
+	<!--<div id="div1" class="red">linear</div>-->
+	<!--<img id="div1" class="red" src="New folder\logo bmw.png">-->
+</a>
+
+
+</div>
+</nav>
+
+<form action="http://www.google.com/translate">
+<script language="JavaScript">
+<!--
+document.write ("<input name=u value="+location.href+" type=hidden>")
+// -->
+</script>
+
+
+<!--
+<div class="container">
+  
+  <div class="row">
+  
+    <div class="col-sm-2">
+		<div id="rotate">
+			Салыстыру марок автомобилей по популярности
+		</div>
+    </div>
+	
+	<div class="col-sm-8">
+		<div class="container">
+			<div class="row">
+				<div class="col-sm">
+				  
+				</div>  
+				<div class="col-sm">
+				  марка автомобиля
+				</div>
+				<div class="col-sm">
+				  Логотип автомобиля
+				</div>
+				<div class="col-sm">
+				  Страна происхождения
+				</div>
+				<div class="col-sm">
+				  Официальный вебсайт
+				</div>
+				<div class="col-sm">
+				  История бренда
+				</div>			
+			</div>
+			
+			<div class="row">
+				<div class="col-sm my-auto">
+				  <a href="Comparison.html" target="_blank">Салыстыру</a>
+				</div> 		 
+				<div class="col-sm my-auto">
+				  Toyota
+				</div>
+				<div class="col-sm my-auto">
+				  <a href="Autotrends_Toyota.html" target="_blank"><img src="New folder\Logo Toyota.png" alt="" border=0 height=200 widtd=300 ></img></a>
+				</div>
+				<div class="col-sm my-auto">
+				  Japan
+				</div>
+				<div class="col-sm my-auto">
+				  <a href="http://toyota.kz" target="_blank"><button type="button" class="btn btn-outline-warning">Өту</button></a>
+				</div>
+				<div class="col-sm my-auto">
+				  <a href="Autotrends_Ford_History.html" target="_blank"><button type="button" class="btn btn-outline-dark">Көру</button></a>
+				</div>			
+			</div>
+		</div>
+    </div>
+
+	<div class="col-sm-2" id="rotate">
+		Салыстыру марок автомобилей по популярности
+    </div>
+	
+	
+  </div>
+</div>
+-->
+
+<!-- table -->
+
+<div class="container">
+
+	<div class="row">
+		
+		<div class="col-sm">
+			<!--<table border="2" bordercolor="grey" align="center" widtd="1200">-->
+			<table class="table">
+				<!--
+				<tr>
+					<td scope="col" rowspan="2"</td>		
+					<td scope="col" rowspan="2"</td>
+				</tr>
+				-->
+			   <thead>
+					<tr>
+						<th scope="col"></th>
+						<th scope="col"></th>
+						<th scope="col">Автокөлік маркасы</th>
+						<th scope="col">Көлік логотипі</th>
+						<th scope="col">Шығарған ел</th>
+						<th scope="col">Ресми сайт</th>
+						<th scope="col">Бренд тарихы</th>
+					</tr>
+				</thead>
+
+				<tr>
+					<th class='rotate' rowspan="32"><div><!--Салыстыру марок автомобилей по популярности--></div></th>
+					
+				</tr>
+				<tr>
+					<td class="my-auto">
+					<!--<a href="Comparison.html" target="_blank"><button type="button" class="btn btn-outline-primary">Салыстыру</button></a>-->
+
+                    <!-- Button trigger modal -->
+                    <button type="button" class="btn btn-outline-primary" data-toggle="modal" data-target="#toyotaModal">
+                      Салыстыру
+                    </button>
+
+                    <!-- Modal -->
+                    <div class="modal fade" id="toyotaModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                      <div class="modal-dialog modal-dialog-centered" role="document">
+                        <div class="modal-content">
+                          <div class="modal-header">
+                            <h5 class="modal-title" id="exampleModalLongTitle">Жылдағы танымалдықты басқа автомобиль маркаларымен салыстыру</h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                              <span aria-hidden="true">&times;</span>
+                            </button>
+
+                          </div>
+                          <div class="modal-body">
+                            <!--from comparison.html-->
+
+                            <div class="btn-group" role="group" aria-label="Basic example">
+
+                             <a href="Comparison Toyota by regions.html" target="_blank">
+                                <button type="button" class="btn btn-outline-success btn-lg"><b>Қазақстан Республикасының облыстары бойынша</b></button>
+                             </a>
+
+                             <a href="Comparison Toyota with other.html" target="_blank">
+
+                                 <button type="button" class="btn btn-outline-success btn-lg"><b>Қазақстан Республикасында</b></button>
+                                </a>
+                            </div>			   
+
+
+                          </div>
+                          <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                            <!--<button type="button" class="btn btn-primary">Save changes</button>-->
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+					</td>
+					<td><h3>Toyota</h3></td>
+					<style>
+					.pic {
+					text-align:center;
+					}
+					</style>
+			         
+                    <td><a data-toggle="tooltip" data-placement="top" title="Динамика популярности" href="Autotrends_Toyota.html" target="_blank"><p class="pic"><img src="New folder\Logo Toyota.png" alt="" border=0 height=130></img></a></td>
+					
+                    <td>
+                        <span class="badge badge-pill badge-info">
+                        Japan
+                        <img src="assets/icons/206589-international-flags/png/063-japan.png" height="15px">                     
+                        </span></td>
+            
+					<td><a href="http://toyota.kz" target="_blank"><button type="button" class="btn btn-outline-warning">Өту</button></a></td>
+            <td><a href="Autotrends_Toyota_History.html" target="_blank"><button type="button" class="btn btn-outline-dark">Көру</button></a></td>
+				</tr>
+				
+				<tr>
+				   <td> 
+                    
+                       <!--<a href="Comparison 0.html" target="_blank"><button type="button" class="btn btn-outline-primary">Салыстыру</button></a>-->
+                       
+                                           <!-- Button trigger modal -->
+                    <button type="button" class="btn btn-outline-primary" data-toggle="modal" data-target="#volkswagenModal">
+                      Салыстыру
+                    </button>
+
+                    <!-- Modal -->
+                    <div class="modal fade" id="volkswagenModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                      <div class="modal-dialog modal-dialog-centered" role="document">
+                        <div class="modal-content">
+                          <div class="modal-header">
+                            <h5 class="modal-title" id="exampleModalLongTitle">Жылдағы танымалдықты басқа автомобиль маркаларымен салыстыру</h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                              <span aria-hidden="true">&times;</span>
+                            </button>
+
+                          </div>
+                          <div class="modal-body">
+                            <!--from comparison.html-->
+
+                            <div class="btn-group" role="group" aria-label="Basic example">
+
+                             <a href="Comparison Volkswagen by regions.html" target="_blank">
+                                <button type="button" class="btn btn-outline-success btn-lg"><b>Қазақстан Республикасының облыстары бойынша</b></button>
+                             </a>
+
+                             <a href="Comparison Volkswagen with other.html" target="_blank">
+
+                                 <button type="button" class="btn btn-outline-success btn-lg"><b>Қазақстан Республикасында</b></button>
+                                </a>
+                            </div>			   
+
+
+                          </div>
+                          <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                            <!--<button type="button" class="btn btn-primary">Save changes</button>-->
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    
+                    
+                    </td>
+                    <td><h3>Volkswagen</h3></td>
+				   <style>
+					.pic {
+					text-align:center;
+					}
+					</style>
+				   <td><a data-toggle="tooltip" data-placement="top" title="Динамика популярности" href="Autotrends_Volkswagen.html" target="_blank"><p class="pic"><img src="New folder\Logo Volkswagen.png" alt="" border=0 height=130></img></a></td> 
+				   <td>
+                       <span class="badge badge-pill badge-info">
+                       Germany
+                       <img src="assets/icons/206589-international-flags/png/162-germany.png" height="15px">
+                       
+                       
+                        </span></td>
+				   <td><a href="http://volkswagen.kz" target="_blank"><button type="button" class="btn btn-outline-warning">Өту</button></a></td>
+				   <td><a href="Autotrends_Volkswagen_History.html" target="_blank"><button type="button" class="btn btn-outline-dark">Көру</button></a></td>
+				 </tr>
+				
+    
+    
+                <tr>
+                    <td> 
+                        <!--<a href="Comparison 1.html" target="_blank"><button type="button" class="btn btn-outline-primary">Салыстыру</button></a></td>-->
+                    
+                    
+                       
+                                           <!-- Button trigger modal -->
+                    <button type="button" class="btn btn-outline-primary" data-toggle="modal" data-target="#mitsubishiModal">
+                      Салыстыру
+                    </button>
+
+                    <!-- Modal -->
+                    <div class="modal fade" id="mitsubishiModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                      <div class="modal-dialog modal-dialog-centered" role="document">
+                        <div class="modal-content">
+                          <div class="modal-header">
+                            <h5 class="modal-title" id="exampleModalLongTitle">Жылдағы танымалдықты басқа автомобиль маркаларымен салыстыру</h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                              <span aria-hidden="true">&times;</span>
+                            </button>
+
+                          </div>
+                          <div class="modal-body">
+                            <!--from comparison.html-->
+
+                            <div class="btn-group" role="group" aria-label="Basic example">
+
+                             <a href="Comparison Mitsubishi by regions.html" target="_blank">
+                                <button type="button" class="btn btn-outline-success btn-lg"><b>Қазақстан Республикасының облыстары бойынша</b></button>
+                             </a>
+
+                             <a href="Comparison Mitsubishi with other.html" target="_blank">
+
+                                 <button type="button" class="btn btn-outline-success btn-lg"><b>Қазақстан Республикасында</b></button>
+                                </a>
+                            </div>			   
+
+
+                          </div>
+                          <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                            <!--<button type="button" class="btn btn-primary">Save changes</button>-->
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    
+                    
+                    </td>
+                    <td><h3>Mitsubishi</h3></td>
+					<style>
+					.pic {
+					text-align:center;
+					}
+					</style>
+					<td><a data-toggle="tooltip" data-placement="top" title="Динамика популярности" href="Autotrends_Mitsubishi.html" target="_blank"><p class="pic"><img src="New folder\Logo Mitsubishi.png" alt="" border=0 height=130></img></a></td>
+					<td>
+                    <span class="badge badge-pill badge-info">
+                    Japan
+                    <img src="assets/icons/206589-international-flags/png/063-japan.png" height="15px">
+                    </span></td>
+					<td><a href="http://mitsubishi-motors.kz" target="_blank"><button type="button" class="btn btn-outline-warning">Өту</button></a></td>
+					<td><a href="Autotrends_Mitsubishi_History.html" target="_blank"><button type="button" class="btn btn-outline-dark">Көру</button></a></td>
+				</tr>
+
+
+
+
+				<tr>
+					<td> 
+                        <!--<a href="Comparison 2.html" target="_blank"><button type="button" class="btn btn-outline-primary">Салыстыру</button></a></td>-->
+                
+                    
+                                              
+                                           <!-- Button trigger modal -->
+                    <button type="button" class="btn btn-outline-primary" data-toggle="modal" data-target="#nissanModal">
+                      Салыстыру
+                    </button>
+
+                    <!-- Modal -->
+                    <div class="modal fade" id="nissanModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                      <div class="modal-dialog modal-dialog-centered" role="document">
+                        <div class="modal-content">
+                          <div class="modal-header">
+                            <h5 class="modal-title" id="exampleModalLongTitle">Жылдағы танымалдықты басқа автомобиль маркаларымен салыстыру</h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                              <span aria-hidden="true">&times;</span>
+                            </button>
+
+                          </div>
+                          <div class="modal-body">
+                            <!--from comparison.html-->
+
+                            <div class="btn-group" role="group" aria-label="Basic example">
+
+                             <a href="Comparison Nissan by regions.html" target="_blank">
+                                <button type="button" class="btn btn-outline-success btn-lg"><b>Қазақстан Республикасының облыстары бойынша</b></button>
+                             </a>
+
+                             <a href="Comparison Nissan with other.html" target="_blank">
+
+                                 <button type="button" class="btn btn-outline-success btn-lg"><b>Қазақстан Республикасында</b></button>
+                                </a>
+                            </div>			   
+
+
+                          </div>
+                          <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                            <!--<button type="button" class="btn btn-primary">Save changes</button>-->
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    
+                    
+                    </td>
+                    <td><h3>Nissan</h3></td>
+					<style>
+					.pic {
+					text-align:center;
+					}
+					</style>
+					<td><a data-toggle="tooltip" data-placement="top" title="Динамика популярности" href="Autotrends_Nissan.html" target="_blank"><p class="pic"><img src="New folder\Logo Nissan.png" alt="" border=0 height=130></img></a></td>
+					<td><span class="badge badge-pill badge-info">
+                        Japan
+                        <img src="assets/icons/206589-international-flags/png/063-japan.png" height="15px"></span></td>
+				    <td><a href="http://nissan.kz" target="_blank"><button type="button" class="btn btn-outline-warning">Өту</button></a></td> 
+				    <td><a href="Autotrends_Nissan_History.html" target="_blank"><button type="button" class="btn btn-outline-dark">Көру</button></a></td>
+				</tr>
+
+
+
+
+
+				<tr>
+                    <td> 
+                    
+                       <!--<a href="Comparison 0.html" target="_blank"><button type="button" class="btn btn-outline-primary">Салыстыру</button></a>-->
+                       
+                                           <!-- Button trigger modal -->
+                    <button type="button" class="btn btn-outline-primary" data-toggle="modal" data-target="#mercedesModal">
+                      Салыстыру
+                    </button>
+
+                    <!-- Modal -->
+                    <div class="modal fade" id="mercedesModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                      <div class="modal-dialog modal-dialog-centered" role="document">
+                        <div class="modal-content">
+                          <div class="modal-header">
+                            <h5 class="modal-title" id="exampleModalLongTitle">Жылдағы танымалдықты басқа автомобиль маркаларымен салыстыру</h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                              <span aria-hidden="true">&times;</span>
+                            </button>
+
+                          </div>
+                          <div class="modal-body">
+                            <!--from comparison.html-->
+
+                            <div class="btn-group" role="group" aria-label="Basic example">
+
+                             <a href="Comparison Mercedes by regions.html" target="_blank">
+                                <button type="button" class="btn btn-outline-success btn-lg"><b>Қазақстан Республикасының облыстары бойынша</b></button>
+                             </a>
+
+                             <a href="Comparison Mercedes with other.html" target="_blank">
+
+                                 <button type="button" class="btn btn-outline-success btn-lg"><b>Қазақстан Республикасында</b></button>
+                                </a>
+                            </div>			   
+
+
+                          </div>
+                          <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                            <!--<button type="button" class="btn btn-primary">Save changes</button>-->
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    
+                    
+                    </td>
+                    
+                    <td><h3>Mercedes</h3></td>
+					<td><a data-toggle="tooltip" data-placement="top" title="Динамика популярности" href="Autotrends_Mercedes.htm" target="_blank"><img src="New folder\Logo Mercedes.png" alt="" border=3 height=130></img></a></td>
+					<td><span class="badge badge-pill badge-info">Germany
+                        <img src="assets/icons/206589-international-flags/png/162-germany.png" height="15px">
+                        </span></td>
+					<td><a href="http://mercedes-benz.kz" target="_blank"><button type="button" class="btn btn-outline-warning">Өту</button></a></td>
+				    <td><a href="Autotrends_Mercedes_History.html" target="_blank"><button type="button" class="btn btn-outline-dark">Көру</button></a></td> 
+				</tr>
+
+
+
+
+
+				<tr>
+					<td> <a href="Comparison 15.html" target="_blank"><button type="button" class="btn btn-outline-primary">Салыстыру</button></a></td>
+                    <td><h3>Audi</h3></td>
+					<td><a data-toggle="tooltip" data-placement="top" title="Динамика популярности" href="Autotrends_Audi.html" target="_blank"><img src="New folder\Logo Audi.png" alt="" border=3 height=130></img></a></td>
+					<td><span class="badge badge-pill badge-info">Germany
+                        <img src="assets/icons/206589-international-flags/png/162-germany.png" height="15px">
+                        </span></td>
+				</tr>
+<!--				<tr>
+					<td> </td>
+                    <td><h3>Lexus</h3></td>
+					<td><a data-toggle="tooltip" data-placement="top" title="Динамика популярности" href="Autotrends_Lexus.htm" target="_blank"><img src="\pic\Logo Lexus.png" alt="" border=3 height=130></img></a></td>
+<td><span class="badge badge-pill badge-info">Japan
+    <img src="assets/icons/206589-international-flags/png/063-japan.png" height="15px"></span></td>
+				</tr> -->
+
+
+
+
+
+
+				<tr>
+					<td> 
+                     
+                    
+                       <!--<a href="Comparison 4.html" target="_blank"><button type="button" class="btn btn-outline-primary">Салыстыру</button></a>-->
+                       
+                                           <!-- Button trigger modal -->
+                    <button type="button" class="btn btn-outline-primary" data-toggle="modal" data-target="#hondaModal">
+                      Салыстыру
+                    </button>
+
+                    <!-- Modal -->
+                    <div class="modal fade" id="hondaModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                      <div class="modal-dialog modal-dialog-centered" role="document">
+                        <div class="modal-content">
+                          <div class="modal-header">
+                            <h5 class="modal-title" id="exampleModalLongTitle">Жылдағы танымалдықты басқа автомобиль маркаларымен салыстыру</h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                              <span aria-hidden="true">&times;</span>
+                            </button>
+
+                          </div>
+                          <div class="modal-body">
+                            <!--from comparison.html-->
+
+                            <div class="btn-group" role="group" aria-label="Basic example">
+
+                             <a href="Comparison Honda by regions.html" target="_blank">
+                                <button type="button" class="btn btn-outline-success btn-lg"><b>Қазақстан Республикасының облыстары бойынша</b></button>
+                             </a>
+
+                             <a href="Comparison Honda with other.html" target="_blank">
+
+                                 <button type="button" class="btn btn-outline-success btn-lg"><b>Қазақстан Республикасында</b></button>
+                                </a>
+                            </div>			   
+
+
+                          </div>
+                          <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                            <!--<button type="button" class="btn btn-primary">Save changes</button>-->
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    
+                    
+                    </td>                        
+                    <td><h3>Honda</h3></td>
+					<td><a data-toggle="tooltip" data-placement="top" title="Динамика популярности" href="Autotrends_Honda.html" target="_blank"><img src="New folder\Logo Honda.png" alt="" border=0 height=100></img></a></td>
+                    <td><span class="badge badge-pill badge-info">Japan
+                        <img src="assets/icons/206589-international-flags/png/063-japan.png" height="15px"></span></td>
+				</tr>
+				<tr>
+					<td> <a href="Comparison 5.html" target="_blank"><button type="button" class="btn btn-outline-primary">Салыстыру</button></a></td>
+                    <td><h3>Hyundai</h3></td>
+					<td><a data-toggle="tooltip" data-placement="top" title="Динамика популярности" href="Autotrends_Hyundai.html" target="_blank"><img src="New folder\Logo Hyundai.png" alt="" border=0 height=80></img></a></td>
+					<td><span class="badge badge-pill badge-info">South Korea
+                        <img src="assets/icons/206589-international-flags/png/094-south-korea.png" height="15px"></span></td>
+				</tr>
+				<tr>
+					<td> <a href="Comparison 6.html" target="_blank"><button type="button" class="btn btn-outline-primary">Салыстыру</button></a></td>	
+                    <td><h3>Ford</h3></td>
+					<td><a data-toggle="tooltip" data-placement="top" title="Динамика популярности" href="Autotrends_Ford 0.html" target="_blank"><img src="New folder\Logo Ford.png" alt=""  class="center-img" border=0 height=60 /></img></a></td>
+					<td><span class="badge badge-pill badge-info">USA
+                        <img src="assets/icons/206589-international-flags/svg/226-united-states.svg" height="15px"></span></td>
+					<td><a href="http://ford.com" target="_blank"><button type="button" class="btn btn-outline-warning">Өту</button></a></td>
+					<td><a href="Autotrends_Ford_History.html" target="_blank"><button type="button" class="btn btn-outline-dark">Көру</button></a></td>
+				</tr>
+				<tr>
+					<td> <a href="Comparison 10.html" target="_blank"><button type="button" class="btn btn-outline-primary">Салыстыру</button></a></td>
+                    <td><h3>Renault</h3></td>
+					<td><a data-toggle="tooltip" data-placement="top" title="Динамика популярности" href="Autotrends_Renault.html" target="_blank"><img src="New folder\Logo Renault.png" alt="" border=0 height=130></img></a></td>
+					<td><span class="badge badge-pill badge-info">France
+                        <img src="assets/icons/206589-international-flags/png/195-france.png" height="15px"></span></td>
+				</tr>
+				<tr>
+					<td> </td>
+                    <td><h3>Opel</h3></td>
+					<td><a data-toggle="tooltip" data-placement="top" title="Динамика популярности" href="Autotrends_Opel.html" target="_blank"><img src="New folder\Logo Opel.png" alt="" border=0 height=130></img></a></td>
+					<td><span class="badge badge-pill badge-info">Germany
+                        <img src="assets/icons/206589-international-flags/png/162-germany.png" height="15px"></span></td>
+				</tr>
+				<tr>
+					<td> <a href="Comparison 13.html" target="_blank"><button type="button" class="btn btn-outline-primary">Салыстыру</button></a></td>
+                    <td><h3>Chevrolet</h3></td>
+					<td><a data-toggle="tooltip" data-placement="top" title="Динамика популярности" href="Autotrends_Chevrolet.html" target="_blank"><img src="New folder\Logo Chevrolet.png" alt="" border=0 height=60></img></a></td>
+					<td><span class="badge badge-pill badge-info">USA
+                        <img src="assets/icons/206589-international-flags/svg/226-united-states.svg" height="15px"></span></td>
+				</tr>
+				<tr>
+					<td> <a href="Comparison 14.html" target="_blank"><button type="button" class="btn btn-outline-primary">Салыстыру</button></a></td>
+                    <td><h3>Peugeot</h3></td>
+					<td><a data-toggle="tooltip" data-placement="top" title="Динамика популярности" href="Autotrends_Peugeot.html" target="_blank"><img src="\New folder\Logo Peugeot.png" alt="" border=0 height=130></img></a></td>
+					<td><span class="badge badge-pill badge-info">France
+                        <img src="assets/icons/206589-international-flags/png/162-germany.png" height="15px"></span></td>
+				</tr>
+				<tr>
+					<td> <a href="Comparison 7.html" target="_blank"><button type="button" class="btn btn-outline-primary">Салыстыру</button></a></td>
+                    <td><h3>Geely</h3></td>
+					<td><a data-toggle="tooltip" data-placement="top" title="Динамика популярности" href="Autotrends_Geely.html" target="_blank"><img src="New folder\Logo Geely.png" alt="" border=0 height=130></img></a></td>
+					<td><span class="badge badge-pill badge-info">China
+                        <img src="assets/icons/206589-international-flags/png/034-china.png" height="15px"></span></td>
+				</tr>
+				<tr>
+					<td> <a href="Comparison 9.html" target="_blank"><button type="button" class="btn btn-outline-primary">Салыстыру</button></a></td>
+                    <td><h3>Citroen</h3></td>
+					<td><a data-toggle="tooltip" data-placement="top" title="Динамика популярности" href="Autotrends_Citroen.html" target="_blank"><img src="New folder\Logo Citroen.png" alt="" border=0 height=130></img></a></td>
+					<td><span class="badge badge-pill badge-info">France
+                        <img src="assets/icons/206589-international-flags/png/162-germany.png" height="15px"></span></td>
+				</tr>
+				<tr>
+					<td> <a href="Comparison 12.html" target="_blank"><button type="button" class="btn btn-outline-primary">Салыстыру</button></a></td>
+                    <td><h3>Suzuki</h3></td>
+					<td><a data-toggle="tooltip" data-placement="top" title="Динамика популярности" href="Autotrends_Suzuki.html" target="_blank"><img src="New folder\Logo Suzuki.png" alt="" border=3 height=130></img></a></td>
+					<td><span class="badge badge-pill badge-info">Japan
+                                                <img src="assets/icons/206589-international-flags/png/063-japan.png" height="15px"></span></td>
+</span></td>
+				</tr>
+<!--				<tr>
+					<td> </td>
+                    <td><h3>Daewoo</h3></td>
+					<td><a data-toggle="tooltip" data-placement="top" title="Динамика популярности" href="Autotrends.html" target="_blank"><img src="\pic\Logo Geely.png" alt="" border=3 height=130></img></a></td>                    
+					<td><span class="badge badge-pill badge-info">South Korea
+                                                <img src="assets/icons/206589-international-flags/png/094-south-korea.png" height="15px"></span></td>
+</span></td>
+				</tr>	-->
+				<tr>
+					<td> <a href="Comparison 11.html" target="_blank"><button type="button" class="btn btn-outline-primary">Салыстыру</button></a></td>
+                    <td><h3>Fiat</h3></td>
+					<td><a data-toggle="tooltip" data-placement="top" title="Динамика популярности" href="Autotrends_Fiat.html" target="_blank"><img src="New folder\Logo Fiat.png" alt="" border=0 height=130></img></a></td>
+					<td><span class="badge badge-pill badge-info">Italy
+                    <img src="assets/icons/206589-international-flags/png/013-italy.png" height="15px"></span></td>
+</span></td>
+				</tr>
+				<tr>
+					<td> <a href="Comparison 16.html" target="_blank"><button type="button" class="btn btn-outline-primary">Салыстыру</button></a></td>
+                    <td><h3>Subaru</h3></td>
+					<td><a data-toggle="tooltip" data-placement="top" title="Динамика популярности" href="Autotrends_Subaru.html" target="_blank"><img src="New folder\Logo Subaru.png" alt="" border=3 height=90></img></a></td>
+					<td><span class="badge badge-pill badge-info">Japan
+                        <img src="assets/icons/206589-international-flags/png/063-japan.png" height="15px"></span></td>
+				</tr>
+				<tr>
+					<td> <a href="Comparison 8.html" target="_blank"><button type="button" class="btn btn-outline-primary">Салыстыру</button></a></td>
+                    <td><h3>Seat</h3></td>
+					<td><a data-toggle="tooltip" data-placement="top" title="Динамика популярности" href="Autotrends_Seat.html" target="_blank"><img src="New folder\Logo Seat.png" alt="" border=0 height=130></img></a></td>
+					<td><span class="badge badge-pill badge-info">Spain
+                        <img src="assets/icons/206589-international-flags/png/128-spain.png" height="15px"></span></td>
+				</tr>
+				<tr>
+					<td> <a href="Comparison 17.html" target="_blank"><button type="button" class="btn btn-outline-primary">Салыстыру</button></a></td>
+                    <td><h3>Volvo</h3></td>
+					<td><a data-toggle="tooltip" data-placement="top" title="Динамика популярности" href="Autotrends_Volvo.html" target="_blank"><img src="New folder\Logo Volvo.png" alt="" border=3 height=130></img></a></td>
+					<td><span class="badge badge-pill badge-info">Sweden
+                        <img src="assets/icons/206589-international-flags/png/184-sweden.png" height="15px"></span></td>
+				</tr>
+				<tr>
+					<td> </td>
+                    <td><h3>Land Rover</h3></td>
+					<td><a data-toggle="tooltip" data-placement="top" title="Динамика популярности" href="Autotrends_Land Rover.html" target="_blank"><img src="New folder/Logo Land Rover.png" alt="" border=3 height=130></img></a></td>
+					<td><span class="badge badge-pill badge-info">Great Britain
+                        <img src="assets/icons/206589-international-flags/png/260-united-kingdom.png" height="15px"></span></td>
+				</tr>
+				<tr>
+					<td> <a href="Comparison 18.html" target="_blank"><button type="button" class="btn btn-outline-primary">Салыстыру</button></a></td>
+                    <td><h3>Great Wall</h3></td>
+					<td><a data-toggle="tooltip" data-placement="top" title="Динамика популярности" href="Autotrends_Great Wall.html" target="_blank"><img src="New folder\Logo Great Wall.png" alt="" border=3 height=130></img></a></td>
+					<td><span class="badge badge-pill badge-info">China
+                        <img src="assets/icons/206589-international-flags/png/034-china.png" height="15px"></span></td>
+				</tr>
+				<tr>
+					<td> <a href="Comparison 7.html" target="_blank"><button type="button" class="btn btn-outline-primary">Салыстыру</button></a></td>
+                    <td><h3>Lifan</h3></td>
+					<td><a data-toggle="tooltip" data-placement="top" title="Динамика популярности" href="Autotrends_Lifan.html" target="_blank"><img src="New folder\Logo Lifan.png" alt="" border=0 height=130></img></a></td>
+					<td><span class="badge badge-pill badge-info">China
+                        <img src="assets/icons/206589-international-flags/png/034-china.png" height="15px"></span></td>
+				</tr>
+<!--				<tr>
+					<td> </td>
+                    <td><h3>Jeep</h3></td>
+					<td><a data-toggle="tooltip" data-placement="top" title="Динамика популярности" href="Autotrends_Jeep.htm" target="_blank"><img src="\pic\Logo Jeep.png" alt="" border=3 height=100 widtd=300></img></a></td>
+					<td><span class="badge badge-pill badge-info">USA
+                        <img src="assets/icons/206589-international-flags/svg/226-united-states.svg" height="15px"></span></td>
+				</tr>
+<!--				<tr>
+					<td> </td>
+                    <td><h3>Infiniti</h3></td>
+					<td><a data-toggle="tooltip" data-placement="top" title="Динамика популярности" href="Autotrends_Infiniti.htm" target="_blank"><img src="\pic\Logo Infiniti.png" alt="" border=3 height=130></img></a></td>
+					<td><span class="badge badge-pill badge-info">Japan
+                        <img src="assets/icons/206589-international-flags/png/063-japan.png" height="15px"></span> </td>
+				</tr> --> 
+				<tr>	
+					<td> <a href="Comparison 19.html" target="_blank"><button type="button" class="btn btn-outline-primary">Салыстыру</button></a></td>
+                    <td><h3>Cadillac</h3></td>
+					<td><a data-toggle="tooltip" data-placement="top" title="Динамика популярности" href="Autotrends_Cadillac.html" target="_blank"><img src="New folder\Logo Cadillac.png" alt="" border=3 height=140></img></a></td>
+					<td><span class="badge badge-pill badge-info">USA
+                                                <img src="assets/icons/206589-international-flags/svg/226-united-states.svg" height="15px"></span></td>
+
+                        </span></td>
+				</tr>
+				<tr>
+					<td> <a href="Comparison 20.html" target="_blank"><button type="button" class="btn btn-outline-primary">Салыстыру</button></a></td>
+                    <td><h3>Skoda</h3></td>
+					<td><a data-toggle="tooltip" data-placement="top" title="Динамика популярности" href="Autotrends_Skoda.html" target="_blank"><img src="New folder\Logo Skoda.png" alt="" border=3 height="130"></img></a></td>
+					<td><span class="badge badge-pill badge-info">Czech Republic
+                                                <img src="assets/icons/206589-international-flags/png/149-czech-republic.png" height="15px"></span></td>
+
+				</tr>
+<!--				<tr>
+					<td> </td>
+                    <td><h3>Mazda</h3></td>
+					<td><a data-toggle="tooltip" data-placement="top" title="Динамика популярности" href="Autotrends_Mazda.htm" target="_blank"><img src="\pic\Logo Mazda.png" alt="" border=3 height=130></img></a></td>
+					<td><span class="badge badge-pill badge-info">Japan                        <img src="assets/icons/206589-international-flags/png/063-japan.png" height="15px"></span></td>
+</span></td>
+				</tr> -->
+ <!--               <tr>
+					<td> </td>
+                    <td><h3>BMW</h3></td>
+					<td><a data-toggle="tooltip" data-placement="top" title="Динамика популярности" href="Autotrends_BMW.htm" target="_blank"><img src="New folder\Logo BMW.png" alt="" border=0 height=130></img></a></td>
+					<td><span class="badge badge-pill badge-info">Germany                        <img src="assets/icons/206589-international-flags/png/162-germany.png" height="15px"></span></td>
+</span></td>
+				</tr> -->
+
+			</table>
+		</div>
+
+	</div>
+</div>
+
+</body>
+</html>
