@@ -477,10 +477,51 @@ document.write ("<input name=u value="+location.href+" type=hidden>")
 
 
 
-
-
 				<tr>
-					<td> <a href="Comparison 15.html" target="_blank"><button type="button" class="btn btn-outline-primary">Салыстыру</button></a></td>
+					<td> 
+					<!-- <a href="Comparison 15.html" target="_blank"><button type="button" class="btn btn-outline-primary">Салыстыру</button></a> -->
+					<button type="button" class="btn btn-outline-primary" data-toggle="modal" data-target="#audiModal">
+                      Салыстыру
+                    </button>
+
+                    <!-- Modal -->
+                    <div class="modal fade" id="audiModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                      <div class="modal-dialog modal-dialog-centered" role="document">
+                        <div class="modal-content">
+                          <div class="modal-header">
+                            <h5 class="modal-title" id="exampleModalLongTitle">Жылдағы танымалдықты басқа автомобиль маркаларымен салыстыру</h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                              <span aria-hidden="true">&times;</span>
+                            </button>
+
+                          </div>
+                          <div class="modal-body">
+                            <!--from comparison.html-->
+
+                            <div class="btn-group" role="group" aria-label="Basic example">
+
+                             <a href="Comparison Audi by regions.html" target="_blank">
+                                <button type="button" class="btn btn-outline-success btn-lg"><b>Қазақстан Республикасының облыстары бойынша</b></button>
+                             </a>
+
+                             <a href="Comparison Audi with other.html" target="_blank">
+
+                                 <button type="button" class="btn btn-outline-success btn-lg"><b>Қазақстан Республикасында</b></button>
+                                </a>
+                            </div>			   
+
+
+                          </div>
+                          <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                            <!--<button type="button" class="btn btn-primary">Save changes</button>-->
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+					
+					</td>
+
                     <td><h3>Audi</h3></td>
 					<td><a data-toggle="tooltip" data-placement="top" title="Танымалдық динамикасы" href="Autotrends_Audi.html" target="_blank"><img src="New folder\Logo Audi.png" alt="" border=3 height=130></img></a></td>
 					<td><span class="badge badge-pill badge-info">Germany
@@ -554,8 +595,52 @@ document.write ("<input name=u value="+location.href+" type=hidden>")
                     <td><span class="badge badge-pill badge-info">Japan
                         <img src="assets/icons/206589-international-flags/png/063-japan.png" height="15px"></span></td>
 				</tr>
+				
 				<tr>
-					<td> <a href="Comparison 5.html" target="_blank"><button type="button" class="btn btn-outline-primary">Салыстыру</button></a></td>
+					<td> 
+					<!-- <a href="Comparison 5.html" target="_blank"><button type="button" class="btn btn-outline-primary">Салыстыру</button></a> -->
+					<button type="button" class="btn btn-outline-primary" data-toggle="modal" data-target="#hyundaiModal">
+                      Салыстыру
+                    </button>
+
+                    <!-- Modal -->
+                    <div class="modal fade" id="hyundaiModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                      <div class="modal-dialog modal-dialog-centered" role="document">
+                        <div class="modal-content">
+                          <div class="modal-header">
+                            <h5 class="modal-title" id="exampleModalLongTitle">Жылдағы танымалдықты басқа автомобиль маркаларымен салыстыру</h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                              <span aria-hidden="true">&times;</span>
+                            </button>
+
+                          </div>
+                          <div class="modal-body">
+                            <!--from comparison.html-->
+
+                            <div class="btn-group" role="group" aria-label="Basic example">
+
+                             <a href="Comparison Hyundai by regions.html" target="_blank">
+                                <button type="button" class="btn btn-outline-success btn-lg"><b>Қазақстан Республикасының облыстары бойынша</b></button>
+                             </a>
+
+                             <a href="Comparison Hyundai with other.html" target="_blank">
+
+                                 <button type="button" class="btn btn-outline-success btn-lg"><b>Қазақстан Республикасында</b></button>
+                                </a>
+                            </div>			   
+
+
+                          </div>
+                          <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                            <!--<button type="button" class="btn btn-primary">Save changes</button>-->
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+					
+					</td>
+
                     <td><h3>Hyundai</h3></td>
 					<td><a data-toggle="tooltip" data-placement="top" title="Танымалдық динамикасы" href="Autotrends_Hyundai.html" target="_blank"><img src="New folder\Logo Hyundai.png" alt="" border=0 height=80></img></a></td>
 					<td><span class="badge badge-pill badge-info">South Korea
