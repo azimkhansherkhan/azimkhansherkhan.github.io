@@ -206,12 +206,63 @@ document.write ("<input name=u value="+location.href+" type=hidden>")
                     </div>
 
 					</td>
-					<td><h3>Toyota</h3></td>
+					<p>
+					<button class="btn btn-outline-primary btn-lg" type="button" data-toggle="collapse" data-target="#collapseToyota" aria-expanded="false" aria-controls="collapseExample">
+						
+					
+						<?php
+						$db_connection = pg_connect("host=localhost dbname=sellcardb user=sellcaru password=q1");
+						$result = pg_query($db_connection, "select b_name from brand where id=1");
+						$resultArr = pg_fetch_all($result);
+						foreach($resultArr as $array)
+						{
+						echo $array['b_name'];
+						}
+						?>
+
+						
+					
+						
+						
+						<svg class="bi bi-caret-down" width="1em" height="1em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+						  <path fill-rule="evenodd" d="M3.204 5L8 10.481 12.796 5H3.204zm-.753.659l4.796 5.48a1 1 0 001.506 0l4.796-5.48c.566-.647.106-1.659-.753-1.659H3.204a1 1 0 00-.753 1.659z" clip-rule="evenodd"/>
+						</svg>
+					</button>
+					</p>
+					<div class="collapse" id="collapseToyota">
+					  <div class="card card-body">
+						
+						<?php
+							$db_connection = pg_connect("host=localhost dbname=sellcardb user=sellcaru password=q1");
+							$result = pg_query($db_connection, "select * from model where id_brand=1");
+
+							$resultArr = pg_fetch_all($result);
+							//print_r($resultArr);
+
+							echo '<table>
+									<tr>
+									 <td>Модель</td>
+									 <td>Год выпуска</td>
+									</tr>';
+
+							foreach($resultArr as $array)
+							{
+								echo '<tr>
+										<td>'. $array['m_name'].'</td>
+									<td>'. $array['produced'].'</td>
+									  </tr>';
+							}
+							echo '</table>';
+						?>	
+						
+					  </div>
+					</div>
+					<!--<td><h3>Toyota</h3></td>
 					<style>
 					.pic {
 					text-align:center;
 					}
-					</style>
+					</style>-->
 			         
                     <td><a data-toggle="tooltip" data-placement="top" title="Динамика популярности" href="Autotrends_Toyota.html" target="_blank"><p class="pic"><img src="New folder\Logo Toyota.png" alt="" border=0 height=130></img></a></td>
 					
